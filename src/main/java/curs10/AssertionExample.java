@@ -4,6 +4,9 @@ import org.testng.annotations.Test;
 import org.testng.asserts.Assertion;
 import org.testng.asserts.SoftAssert;
 
+import static org.testng.Assert.assertEquals;
+
+
 public  class AssertionExample {
 
     String one = "Test";
@@ -18,7 +21,7 @@ public  class AssertionExample {
     }
     @Test
     public void checkStringEquality(){
-        Assert.assertEquals(one, two);
+        assertEquals(one, two);
     }
 
 
